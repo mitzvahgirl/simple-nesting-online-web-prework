@@ -15,7 +15,15 @@ def hopper
           :languages => ["C"]
         }
      }
+     
+ changing_alan[:alan_kay][:known_for]).to eq("GUI")
+    end
+  end
 
+ "#adding_to_dennis" do 
+    it "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" do 
+      expect(adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
+  
 
 end
 
